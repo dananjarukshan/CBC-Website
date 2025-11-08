@@ -95,4 +95,6 @@ function updateProduct(req, res) {
 }
 
 
+// Export the functions
+// export the functions to be used in route definitions
 export { createProduct, getAllProducts, deleteProduct, updateProduct };
